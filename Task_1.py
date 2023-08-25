@@ -13,7 +13,7 @@ n = int(input("Введите общее кол-во монет: "))
 tails = int(input("Введите кол-во монет, которые лежат вверх решкой: "))
 emblem = int(input("Введите кол-во монет, которые лежат вверх гербом: "))
 
-if tails > n or tails < 0 or emblem > n or emblem < 0 or tails == emblem:
+if tails > n or tails < 0 or emblem > n or emblem < 0:
     print("Введено неверное кол-во монет повторите попытку")
 else:
     a = n - tails
@@ -31,7 +31,7 @@ else:
 # tails = int(input("Введите кол-во монет, которые лежат вверх решкой: "))
 # emblem = int(input("Введите кол-во монет, которые лежат вверх гербом: "))
 
-# if tails > n or tails < 0 or emblem > n or emblem < 0 or tails == emblem:
+# if tails > n or tails < 0 or emblem > n or emblem < 0:
 #     print("Введено неверное кол-во монет повторите попытку")
 # else:
 #     min_1 = float("inf")
@@ -63,7 +63,7 @@ else:
 # tails = int(input("Введите кол-во монет, которые лежат вверх решкой: "))
 # emblem = int(input("Введите кол-во монет, которые лежат вверх гербом: "))
 
-# if tails > n or tails < 0 or emblem > n or emblem < 0 or tails == emblem:
+# if tails > n or tails < 0 or emblem > n or emblem < 0:
 #     print("Введено неверное кол-во монет повторите попытку")
 # else:
 #     min_1 = float("inf")
